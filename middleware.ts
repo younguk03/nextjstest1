@@ -1,7 +1,9 @@
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
-const isProtectedRoute = createRouteMatcher(['/dashboard(.*)', '/fourm(.*)']); //dashboard페이지는 보호해야할 루트다.
-const isPublicRoute = createRouteMatcher(['/', '/sign-in(.*)', '/sign-up(.*)']); //로그인 안해도 보여져야하는 페이지
+const isProtectedRoute = createRouteMatcher(['/dashboard(.*)', '/fourm(.*)']);
+
+const isPublicRoute = createRouteMatcher(['/', '/sign-in(.*)', '/sign-up(.*)']); 
+
 export default clerkMiddleware((auth, req) => {
    if (isProtectedRoute(req)) auth().protect()
    if (!isPublicRoute(req)) auth().protect()
