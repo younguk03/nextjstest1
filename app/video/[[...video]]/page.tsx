@@ -11,7 +11,7 @@ export default function VideoPage() {
                   <h3 className='text-xl font-bold'>자기소개 동영상</h3>
                   <p><Link href={"https://www.youtube.com/watch?v=dLLFmcO4QXI"} className=' hover:underline hover:text-blue-600' target='_blank'>https://www.youtube.com/watch?v=dLLFmcO4QXI</Link></p>
                   <div className='mt-3'>
-                     <iframe src="https://www.youtube.com/embed/dLLFmcO4QXI?si=MJT0hVPar1-1ckdd" style={{width:'100%', height:'300px'}}></iframe>
+                     <iframe src="https://www.youtube.com/embed/dLLFmcO4QXI?si=MJT0hVPar1-1ckdd" style={{width:'100%', }}></iframe>
                   </div>
                </div>
 
