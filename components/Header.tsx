@@ -1,8 +1,5 @@
-
-import Image from "next/image";
 // 이미지 오류 해결 출처: https://velog.io/@icdmiracle927/NEXT.JS%EC%97%90-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%98%AC%EB%A6%AC%EA%B8%B0
-import younguk from '../img.jpg';
-import { SignInButton, SignOutButton, SignUpButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { SignInButton, SignOutButton, SignUpButton, SignedIn, SignedOut} from '@clerk/nextjs'
 import Link from 'next/link'
 
 
@@ -36,7 +33,7 @@ export default function Header() {
 
          <div className=" pb-4 pl-5">
             <Link href={`./`}>
-               <h3 className="font-bold text-4xl text-center pt-0 p-5">Younguk's portfolio</h3></Link>
+               <h3 className="font-bold text-4xl text-center pt-0 p-5">Younguk&apos;s portfolio</h3></Link>
          </div>
          <div className="border-t-2 border-black">
             <div className="border-b-2 border-gray-300">

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import younguk from '../img.jpg';
-import { SignIn, SignedIn } from "@clerk/nextjs";
 
 export default function Home() {
   return (
