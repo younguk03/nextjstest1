@@ -4,7 +4,7 @@ import React from 'react'
 export default function MyProjects() {
    return (
       <div style={{ backgroundColor: '#f6f6f6' }}>
-         <div className="ml-10 pt-6 pb-6">
+         <div className="ml-10 pt-6 pb-11">
             <h3 className="font-bold text-3xl">My projects</h3>
             <div className='border-gray-400 border-2 mt-5 bg-white' style={{ borderRadius: '20px' }}>
                <div className="m-8 pb-1">

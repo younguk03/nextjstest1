@@ -3,7 +3,7 @@ import younguk from '../img.jpg';
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: '#f6f6f6' }}>
+    <div style={{ backgroundColor: '#f6f6f6' }} className="pb-40">
       <div className="ml-20 mr-20">
         <h3 className="font-bold text-3xl pb-3 pt-6">About me</h3>
         <Image src={younguk} alt="younguk" height={400} className="ml-5 mr-10 border-gray-500 border-4 mt-6 left-0 float-left" />
